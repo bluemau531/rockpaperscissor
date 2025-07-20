@@ -1,0 +1,28 @@
+.body-background{
+    background-color: black;
+}
+
+.body-container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    padding: 20px;
+}
+
+.body-images{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px;
+}
+
+.body-buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
